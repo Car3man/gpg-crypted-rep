@@ -1,23 +1,37 @@
 # Setup crypted repository
+
 ## Installation
+
 ### Git-crypt Installation
+
 1. Ubuntu
+
     ```
     sudo apt update
     sudo apt install git-crypt
     ```
+
 2. Windows
+
     TODO
+
 ### GPG Installation
+
 1. Ubuntu
+
     ```
     sudo apt update
     sudo apt install gpg
     ```
+
 2. Windows
+
     TODO
+
 ## Creation GPG Key
+
 1. Ubuntu
+
     ```
     gpg --full-generate-key
     ```
@@ -35,11 +49,15 @@
     
     > Note:
     Now you have public gpg key as a file and you can share it
+
 2. Windows
+
     TODO
         
 ## Setup repository encryption
+
 1. Ubuntu
+
     - Open terminal and move to repository dictionary
         > Note: for this repository dictionary will be 'gpg-crypted-rep'
     
@@ -52,9 +70,15 @@
         filename1.txt filter=git-crypt diff=git-crypt
         filename2.txt filter=git-crypt diff=git-crypt
         ```
+        
+   2. Windows
+     
+     TODO
     
 ### Adding collaborator
+
 1. Ubuntu
+
     Before adding the collaborator you need to double check that you have been added to colloborators
     Once it done, please tell potential collaborator to create himself GPG key ([Creation GPG Key](#creation-gpg-key))
     Then this user should send you public key
@@ -78,3 +102,6 @@
     ```
     Last thing is commit changes that made by `git-crypt` and push them to remote repository
     Now collaborator can see encrypted files if him still can't type `git-crypt unlock`
+2. Windows
+    
+    TODO
