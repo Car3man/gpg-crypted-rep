@@ -56,7 +56,7 @@
 ### Adding collaborator
 1. Ubuntu
     Before adding the collaborator you need to double check that you have been added to colloborators
-    Once it done, please tell potential collaborator to create himself GPG key ([Creation GPG Key]("#creation-gpg-key"))
+    Once it done, please tell potential collaborator to create himself GPG key ([Creation GPG Key](#creation-gpg-key))
     Then this user should send you public key
     Once you get it, you need import it to your key list
     ```
